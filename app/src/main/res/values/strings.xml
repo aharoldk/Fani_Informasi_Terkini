@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FANI</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_sport">Sport</string>
+    <string name="nav_food">Food</string>
+    <string name="nav_health">Health</string>
+    <string name="nav_travel">Travel</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_add">Add</string>
+    <string name="nav_submit">Submit</string>
+    <string name="nav_login">Login</string>
+    <string name="nav_logout">Logout</string>
+    <string name="main_texttitle">Ini merupakan title, masih kurang panjang pake minyak lintah papua, dari papua pun</string>
+    <string name="main_datetime">Sabtu, 24 Juni 2017 12.00 WITA</string>
+    <string name="regis_name">Name</string>
+    <string name="regis_email">Email Address</string>
+    <string name="regis_password">Password</string>
+    <string name="regis_button">Sign Up</string>
+</resources>

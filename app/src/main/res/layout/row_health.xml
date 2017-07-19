@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+
+            android:padding="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title Disini"
+            android:id="@+id/titleHealth"
+            android:textStyle="bold"
+            android:textSize="14dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imgHealth"
+                android:layout_width="0dp"
+                android:layout_height="175dp"
+                android:scaleType="fitXY"
+                android:layout_weight="0.6"/>
+
+            <LinearLayout
+                android:id="@+id/root_desc"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:paddingTop="10dp"
+                android:paddingLeft="3dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Brand"
+                        android:layout_weight="0.3"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/brandHeatlh"
+                        android:layout_weight="0.7"
+                        android:textSize="12sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Price"
+                        android:layout_weight="0.3"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/priceHealth"
+                        android:layout_weight="0.7"
+                        android:textSize="12sp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:text="Deskription"
+                    android:textSize="10sp"
+                    android:id="@+id/deskHealth"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Rating"
+                        android:layout_weight="0.3"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ratingHealth"
+                        android:layout_weight="0.7"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+                <!--<LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Color"
+                        android:layout_weight="0.3"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/colorHealth"
+                        android:layout_weight="0.7"
+                        android:textSize="12sp"/>
+
+                </LinearLayout>-->
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</android.support.v7.widget.CardView>
